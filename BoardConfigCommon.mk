@@ -41,6 +41,7 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm845
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := proton
 TARGET_KERNEL_CLANG_PATH := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-proton
+TARGET_KERNEL_CONFIG := vendor/xiaomi/mi845_defconfig
 
 # Platform
 TARGET_BOARD_PLATFORM := sdm845
